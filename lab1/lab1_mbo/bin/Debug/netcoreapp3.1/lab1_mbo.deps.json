@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "lab1_mbo/1.0.0": {
+        "dependencies": {
+          "LpSolveDotNet": "4.0.0"
+        },
+        "runtime": {
+          "lab1_mbo.dll": {}
+        }
+      },
+      "LpSolveDotNet/4.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/LpSolveDotNet.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lab1_mbo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LpSolveDotNet/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R8ZtQW5rMiiDC6fwJ5iKE2rBfysDmsT28EUX4qz8Hdqc2bPNZfsiUOuOSWoPqo5WFm5jzOzXfy5/WkehJdlRIA==",
+      "path": "lpsolvedotnet/4.0.0",
+      "hashPath": "lpsolvedotnet.4.0.0.nupkg.sha512"
+    }
+  }
+}
